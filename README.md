@@ -8,7 +8,7 @@ Docker image for graphql-cli command
 
 ```
 # in step 4 it's assumed you specify environment name "default"
-docker run -v `pwd`:/graphql graphql init`
+docker run -v `pwd`:/graphql graphql/cli graphql init`
 ```
 
 2. After filling all information, create `Dockerfile` in projects root:
